@@ -1,0 +1,11 @@
+name: meetup
+channels:
+  - conda-forge
+  - h2oai
+dependencies:
+  - python=3.6
+  - pandas
+  - h2o==3.26.0.3
+  - nb_conda_kernels
+  - implicit
+  - ipywidgets
